@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="game.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>HALLO</h1>
+         <div id="ding_1" draggable="true" onclick="changetext()"> </div>
+         <h1>JavaScript - Drag and Drop</h1>
+         <div id="container">
+            <div id="drop-targets">
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div id="item" draggable="true" ondragstart="drag(event)" ondragstart="removefood()">
+                    </div>
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+        </div>
+        
 </body>
 </html>
