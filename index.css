@@ -8,14 +8,14 @@ justify-content: center;
 }
 .box{
     border:1px solid;
-    height: 200px;
+    height: 517px;
     width: 100px;
     display: inline-block;
     margin: 50px;
 }
 
 #item{
-    background-color: rgb(255, 0, 0);
+   
     width: 75px;
     height: 75px;
     margin: 12.5px;
